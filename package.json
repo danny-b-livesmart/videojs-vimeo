@@ -17,7 +17,7 @@
     "start": "babel-node scripts/server.js",
     "version": "babel-node scripts/version.js",
     "postversion": "babel-node scripts/postversion.js",
-    "prepublish": "npm run build"
+    "prepublish": "echo 'skip build'"
   },
   "keywords": [
     "videojs",
